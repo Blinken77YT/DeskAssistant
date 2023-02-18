@@ -1,0 +1,8 @@
+setup.py
+deskAssistant/__init__.py
+deskAssistant/deskAssistant.py
+deskAssistant.egg-info/PKG-INFO
+deskAssistant.egg-info/SOURCES.txt
+deskAssistant.egg-info/dependency_links.txt
+deskAssistant.egg-info/requires.txt
+deskAssistant.egg-info/top_level.txt
