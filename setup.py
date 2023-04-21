@@ -1,8 +1,6 @@
 from setuptools import setup, find_packages
-import codecs
-import os
 
-VERSION = '0.0.6'
+VERSION = '0.0.7'
 DESCRIPTION = 'A package to help with making a virtual assistant'
 
 # Setting up
