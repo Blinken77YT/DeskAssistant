@@ -4,9 +4,12 @@ import datetime as dt
 import webbrowser
 
 class Assistant:
-    def __init__(self):
+    def __init__(self, voiceid=0, rate=100):
         self.engine = tts.init()
         self.r = sr.Recognizer()
+        self.voices = self.engine.getProperty('voices')
+        self.engine.setProperty('voice', self.voices[voiceid].id)
+        self.engine.setProperty('rate', rate)
 
     def takeCommand(self):
         with sr.Microphone() as source:
