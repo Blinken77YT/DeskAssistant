@@ -58,7 +58,7 @@ class Assistant:
         self.speak("I opened your mail for you.")
 
     def calculate(self, expression):
-        try:
+        try: 
             result = eval(expression)
             return str(result)
         except:
